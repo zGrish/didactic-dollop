@@ -1,0 +1,6 @@
+name = input('Enter full name: ').title()
+print(f'\t  {name}   \t')
+left = name.lstrip()
+right = name.rstrip()
+total = name.strip()
+print (f'{left}\n{right}\n{total}')
