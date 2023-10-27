@@ -7,3 +7,13 @@ def print_square(size):
             print('#', end="")
         print()
 main()
+# Alternative and better code:
+# def main():
+#     n = int(input('Enter the size of the obstacle: '))
+#     print_obstacle(n)
+# def print_obstacle(size):
+#     for i in range(size):
+#         print_row(size)
+# def print_row(width):
+#     print('#'*width)
+# main()
