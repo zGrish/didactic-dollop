@@ -1,4 +1,5 @@
 def natural(numf):
+    """To calculate and return sum of n natural numbers"""
     sum = 0
     for i in range(1, numf + 1):
         sum += i
